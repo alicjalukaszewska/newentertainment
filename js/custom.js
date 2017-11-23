@@ -48,9 +48,12 @@ AOS.init({
     disable:  window.innerWidth < 1024,
     duration: 600,
 });
-
 /* Light YouTube Embeds by @labnol */
-    /* Web: http://labnol.org/?p=27941 */
+/* Web: http://labnol.org/?p=27941 */
+
+document.addEventListener("DOMContentLoaded", function (){
+    console.log('Yay');
+});
 
 document.addEventListener("DOMContentLoaded",
     function() {
